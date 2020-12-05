@@ -7,10 +7,15 @@ Frontend engineering is a broad sphere which implies a strong knowledge of diffe
 This repository contains notes about frontend stuff in order to revise it quickly.
 
 ## Table of contents
+- [Animation](animation.md)
+  - [CSS properties](animation.md#css-properties)
+  - [requestAnimationFrame](animation.md#requestAnimationFrame)
+- [DOM](DOM.md)
 - [http2](http2.md)
   - [http1.1 restrictions](http2.md#http1.1-restrictions)
   - [http2](http2.md#http2-features)
   - [sources](http2.md#sources)
+- [Event Loop](js-event-loop.md)
 - [Performance](performance.md)
   - [Common practice](performance.md#common-practice)
   - [Optimization of resource delivery](performance.md#optimization-of-resource-delivery)
