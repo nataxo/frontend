@@ -14,5 +14,9 @@ There are several kinds of caches: these can be grouped into two main categories
     <summary>Private browser cache</summary>
     <img src="images/browserCache.PNG" alt="All identical requests are going through to the server">
    </details>
+- <details>
+    <summary>Shared proxy cache</summary>
+    <img src="images/sharedCache.PNG" alt="Identical requests are served by the shared cache">
+   </details>
 - Service Worker - a proxy which sits between browser, server and application. Can be used for caching and assess th application in offline.
 - IndexDb - for caching data in browser

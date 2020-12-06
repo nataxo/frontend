@@ -7,6 +7,7 @@ Frontend engineering is a broad sphere which implies a strong knowledge of diffe
 This repository contains notes about frontend stuff in order to revise it quickly.
 
 ## Table of contents
+- [Accessibility](a11y.md)
 - [Animation](animation.md)
   - [CSS properties](animation.md#css-properties)
   - [requestAnimationFrame](animation.md#requestAnimationFrame)
