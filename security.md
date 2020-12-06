@@ -21,14 +21,16 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Polic
 
 Cross-Origin Resource Sharing is an HTTP-header based mechanism that allows a server to indicate any other origins (domain, scheme, or port) than its own from which a browser should permit loading of resources. 
 
+## Simple request
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Simple_requests
+
 ## Preflight request
 
 CORS relies on a mechanism by which browsers make a “preflight” request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.
-Preflight request potentially can be used by fraudsters.
+Unlike “simple requests”, for "preflighted" requests the browser first sends an HTTP request using the OPTIONS method to the resource on the other origin, in order to determine if the actual request is safe to send. Cross-site requests are preflighted like this since they may have implications to user data.
+Read more https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Preflighted_requests
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-
-## How to prevent 
+## How to prevent web attacks
 1. Sanitize user generated content
 2. Look after node_modules. Update dependencies
 3. Use [CSP](#content-security-policy-aka-csp)
