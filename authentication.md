@@ -1,0 +1,6 @@
+# Basic Authentication methods
+
+- `Basic HTTP` - basic access authentication is a method for an HTTP user agent (e.g. a web browser) to provide a user name and password when making a request. In basic HTTP authentication, a request contains a header field in the form of Authorization: Basic <credentials>, where credentials is the Base64 encoding of ID and password joined by a single colon `:`.
+- `OAuth` - is an open standard for access delegation, commonly used as a way for Internet users to grant websites or applications access to their information on other websites but without giving them the passwords.
+- `OpenID` - allows users to be authenticated by co-operating sites (known as relying parties, or RP) using a third-party service, eliminating the need for webmasters to provide their own ad hoc login systems, and allowing users to log into multiple unrelated websites without having to have a separate identity and password for each.
+- `Single sign-on (SSO)` - is an authentication scheme that allows a user to log in with a single ID and password to any of several related, yet independent, software systems.

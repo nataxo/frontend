@@ -10,6 +10,7 @@ This repository contains notes about frontend stuff in order to revise it quickl
 - [Animation](animation.md)
   - [CSS properties](animation.md#css-properties)
   - [requestAnimationFrame](animation.md#requestAnimationFrame)
+- [Authentication](authentication.md)
 - [DOM](DOM.md)
 - [http2](http2.md)
   - [http1.1 restrictions](http2.md#http1.1-restrictions)
